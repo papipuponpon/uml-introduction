@@ -1,0 +1,11 @@
+@startuml ユースケース図
+skinparam actorStyle awesome
+' left to right direction
+actor 藤原頼希 #Pink;line:Pink;line.bold;
+package 携帯システム {
+usecase 連絡先を登録する
+usecase 電話をかける
+}
+藤原頼希 --> 連絡先を登録する #blue;line.dotted;text:blue
+藤原頼希 --> 電話をかける #green;line.dashed;text:green
+@enduml
