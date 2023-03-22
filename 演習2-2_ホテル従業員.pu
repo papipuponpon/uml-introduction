@@ -1,0 +1,7 @@
+@startuml 演習2-2
+left to right direction
+rectangle ホテル {
+actor 経営者 #DDDDDD;line:black;line.bold;
+actor ホテル従業員 #DDDDDD;line:black;line.bold;
+}
+経営者 <|-[dashed]- ホテル従業員
