@@ -8,4 +8,4 @@ rectangle ホテル宿泊予約 {
 }
 キャンペーン ...> input : << extend >>
 input ...> ログイン : << include >>
-利用者 --> input
+利用者 ---> input
