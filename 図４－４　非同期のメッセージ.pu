@@ -5,8 +5,8 @@ participant ":検索画面" as seach
 participant ":検索コントローラ" as control
 activate seach
 seach -> control: 検索情報取得（）
-seach <-- control: 検索情報取得（）
+seach <-- control
 seach ->> control: 検索情報取得（）
 deactivate control
-note right of seach : 非同期メッセージ
+note left of seach : 非同期メッセージ
 @enduml
